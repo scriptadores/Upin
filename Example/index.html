@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Upin - Upload de arquivos</title>
+	<meta charset="utf-8" />
+  </head>
+  <body>
+    <form name="upload" action="upload.php" method="POST" enctype="multipart/form-data">
+	  <input type=file multiple name="file[]" />
+	  <button>Enviar</button>
+	  <input type="hidden" value="1" name="go" />
+	</form>
+  </body>
+</html>
